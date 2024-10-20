@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador Lotofácil</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerador de Números - Lotofácil</h1>
+        <p>Escolha suas preferências e gere seus números com base nos padrões dos últimos sorteios.</p>
+        <div class="form-group">
+            <label for="quantity">Quantidade de números:</label>
+            <select id="quantity">
+                <option value="15">15 números</option>
+                <option value="16">16 números</option>
+                <option value="17">17 números</option>
+            </select>
+        </div>
+        <button id="generateBtn">Gerar Números</button>
+        <div id="result">
+            <h2>Números Gerados:</h2>
+            <p id="numbers"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
